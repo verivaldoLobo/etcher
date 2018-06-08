@@ -6760,10 +6760,12 @@
     "prebuild-install": {
       "version": "2.3.0",
       "resolved": "https://registry.npmjs.org/prebuild-install/-/prebuild-install-2.3.0.tgz",
+      "dev": true,
       "dependencies": {
         "xtend": {
           "version": "4.0.1",
-          "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
+          "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz",
+          "dev": true
         }
       }
     },
@@ -9516,10 +9518,6 @@
       "version": "0.1.0",
       "resolved": "https://registry.npmjs.org/window-size/-/window-size-0.1.0.tgz",
       "dev": true
-    },
-    "winusb-driver-generator": {
-      "version": "1.1.7",
-      "resolved": "https://registry.npmjs.org/winusb-driver-generator/-/winusb-driver-generator-1.1.7.tgz"
     },
     "wordwrap": {
       "version": "1.0.0",
