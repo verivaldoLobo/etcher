@@ -30,6 +30,14 @@
       "version": "1.1.0",
       "resolved": "https://registry.npmjs.org/@types/color-name/-/color-name-1.1.0.tgz"
     },
+    "@types/debug": {
+      "version": "0.0.30",
+      "resolved": "https://registry.npmjs.org/@types/debug/-/debug-0.0.30.tgz"
+    },
+    "@types/file-type": {
+      "version": "5.2.1",
+      "resolved": "https://registry.npmjs.org/@types/file-type/-/file-type-5.2.1.tgz"
+    },
     "@types/grid-styled": {
       "version": "3.2.2",
       "resolved": "https://registry.npmjs.org/@types/grid-styled/-/grid-styled-3.2.2.tgz"
@@ -624,8 +632,8 @@
       "dev": true
     },
     "aws-sdk": {
-      "version": "2.253.1",
-      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.253.1.tgz",
+      "version": "2.256.1",
+      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.256.1.tgz",
       "dependencies": {
         "ieee754": {
           "version": "1.1.8",
@@ -2273,6 +2281,10 @@
       "resolved": "https://registry.npmjs.org/cwd/-/cwd-0.9.1.tgz",
       "dev": true
     },
+    "cyclic-32": {
+      "version": "1.0.1",
+      "resolved": "https://registry.npmjs.org/cyclic-32/-/cyclic-32-1.0.1.tgz"
+    },
     "d": {
       "version": "0.1.1",
       "resolved": "https://registry.npmjs.org/d/-/d-0.1.1.tgz"
@@ -3526,11 +3538,15 @@
     },
     "etcher-sdk": {
       "version": "0.0.1",
-      "resolved": "git://github.com/resin-io-modules/etcher-sdk.git#df9486a048e25fd2a4cfe39e250fb4d90102b964",
+      "resolved": "git://github.com/resin-io-modules/etcher-sdk.git#e52d03729e116d4c7fb2b6457689147edae9d24f",
       "dependencies": {
+        "@types/lodash": {
+          "version": "4.14.109",
+          "resolved": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.109.tgz"
+        },
         "@types/node": {
-          "version": "8.10.19",
-          "resolved": "https://registry.npmjs.org/@types/node/-/node-8.10.19.tgz"
+          "version": "6.0.112",
+          "resolved": "https://registry.npmjs.org/@types/node/-/node-6.0.112.tgz"
         },
         "apple-data-compression": {
           "version": "0.4.0",
@@ -3547,6 +3563,10 @@
         "bluebird": {
           "version": "3.5.1",
           "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-3.5.1.tgz"
+        },
+        "file-type": {
+          "version": "8.0.0",
+          "resolved": "https://registry.npmjs.org/file-type/-/file-type-8.0.0.tgz"
         },
         "inherits": {
           "version": "2.0.3",
@@ -6349,16 +6369,15 @@
       }
     },
     "node-raspberrypi-usbboot": {
-      "version": "0.0.4",
-      "resolved": "https://registry.npmjs.org/node-raspberrypi-usbboot/-/node-raspberrypi-usbboot-0.0.4.tgz",
+      "version": "0.0.5",
+      "resolved": "https://registry.npmjs.org/node-raspberrypi-usbboot/-/node-raspberrypi-usbboot-0.0.5.tgz",
       "dependencies": {
         "@types/node": {
-          "version": "8.10.19",
-          "resolved": "https://registry.npmjs.org/@types/node/-/node-8.10.19.tgz"
+          "version": "6.0.112",
+          "resolved": "https://registry.npmjs.org/@types/node/-/node-6.0.112.tgz"
         },
         "usb": {
           "version": "1.4.0",
-          "from": "tessel/node-usb#dad0076389201c732cac2290b81ef22b1fcb883c",
           "resolved": "git://github.com/tessel/node-usb.git#dad0076389201c732cac2290b81ef22b1fcb883c"
         }
       }
@@ -6729,12 +6748,16 @@
       "dev": true
     },
     "partitioninfo": {
-      "version": "4.0.0",
-      "resolved": "https://registry.npmjs.org/partitioninfo/-/partitioninfo-4.0.0.tgz",
+      "version": "4.0.1",
+      "resolved": "https://registry.npmjs.org/partitioninfo/-/partitioninfo-4.0.1.tgz",
       "dependencies": {
         "chs": {
           "version": "0.2.1",
           "resolved": "https://registry.npmjs.org/chs/-/chs-0.2.1.tgz"
+        },
+        "gpt": {
+          "version": "2.0.0",
+          "resolved": "https://registry.npmjs.org/gpt/-/gpt-2.0.0.tgz"
         },
         "mbr": {
           "version": "0.4.4",
@@ -8945,6 +8968,10 @@
       "version": "0.0.6",
       "resolved": "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz",
       "dev": true
+    },
+    "typescript": {
+      "version": "2.9.1",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-2.9.1.tgz"
     },
     "ua-parser-js": {
       "version": "0.7.12",
