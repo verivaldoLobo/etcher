@@ -632,8 +632,8 @@
       "dev": true
     },
     "aws-sdk": {
-      "version": "2.258.1",
-      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.258.1.tgz",
+      "version": "2.259.1",
+      "resolved": "https://registry.npmjs.org/aws-sdk/-/aws-sdk-2.259.1.tgz",
       "dependencies": {
         "ieee754": {
           "version": "1.1.8",
@@ -3538,11 +3538,11 @@
     },
     "etcher-sdk": {
       "version": "0.0.1",
-      "resolved": "git://github.com/resin-io-modules/etcher-sdk.git#456c75ef2d0742df15e95857910f9b2a2089885e",
+      "resolved": "git://github.com/resin-io-modules/etcher-sdk.git#0f3341050760930daf91e84a2cb76bd59cfe84a5",
       "dependencies": {
         "@types/lodash": {
-          "version": "4.14.109",
-          "resolved": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.109.tgz"
+          "version": "4.14.110",
+          "resolved": "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.110.tgz"
         },
         "@types/node": {
           "version": "6.0.113",
