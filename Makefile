@@ -227,7 +227,6 @@ $(BUILD_DIRECTORY)/$(APPLICATION_NAME)-cli-$(APPLICATION_VERSION)-$(PLATFORM)-$(
 		-x $@ \
 		-t node \
 		-s "$(PLATFORM)"
-	patch --directory=$@ --force --strip=1 --ignore-whitespace < patches/lzma-native-index-static-addon-require.patch
 	cp -r lib $@
 	cp package.json $@
 
@@ -533,6 +532,11 @@ electron-develop:
 		-v "$(ELECTRON_VERSION)" \
 		-t electron \
 		-s "$(PLATFORM)"
+	# patch from https://github.com/mapbox/node-pre-gyp/pull/279/files , required for lzma-native in electron child processes
+	# we only apply the patch if it hasn't been applied
+	if ! [ -f node_modules/lzma-native/node_modules/node-pre-gyp/lib/util/versioning.js.orig ]; \
+		then patch --backup --force --strip=1 --ignore-whitespace < patches/allow-electron-forks-of-modules-that-use-pre-gyp.patch; \
+	fi;
 
 sass:
 	node-sass lib/gui/app/scss/main.scss > lib/gui/css/main.css
